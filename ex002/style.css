@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype'), url('pacote-projeto-d010/fontes/idroid.otf') format('truetype');
+    }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Permanent+Marker&display=swap');
+    
+:root {
+    --color01: #155E38;
+    --color02: #315E47;
+    --color03: #26AB66;
+    --color04: #31DE84;
+    --color05: #76E3AB;
+    --font01: 'Montserrat';
+}
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: var(--color05);
+}
+p {
+    max-width: 15px 0px;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--color04),var(--color01));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    box-shadow: 0px 7px 7px black;
+}
+header > h1 {
+    color: white;
+    font-family: 'idroid';
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px black;
+}
+header > h2 {
+    color: white;
+    font-family: 'idroid';
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 0px black;
+}
+nav {
+    background-color: var(--color01);
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 2px 2px 0px black;
+    
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+nav > a:hover {
+    background-color: var(--color04);
+    color: var(--color01);
+    transition-duration: 0.5s;
+    text-shadow: 2px 2px 0px white;
+}
+strong {
+    color: var(--color01);
+}
+a {
+    color: var(--color01);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    background-color: var(--color04);
+    color: white;
+    text-shadow: 2px 2px 0px black;
+}
+main {
+    background-color: white;
+    border-radius: 20px;
+    
+    margin: auto;
+    padding: 15px;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 2px 2px 2px black;
+    text-align: justify;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+main h1 {
+    color: var(--color01);
+    font-family: 'idroid';
+    padding: 10px;
+    text-indent: 20px;
+    font-size: 2em;
+}
+main h2 {
+    color: var(--color01);
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, var(--color04), transparent);
+    padding: 20px;
+    border-radius: 30px;
+}
+main p {
+    text-indent: 40px;
+    line-height: 1.2em;
+    padding: 10px;
+    
+} 
+main img {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.video {
+    position: relative;
+    background-color: white;
+    height: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 60%;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+aside {
+    background-color: var(--color05);
+    padding: 10px;
+    border-radius: 20px;
+}
+ul {
+    list-style-type: none;
+    columns: 2;
+    list-style-position: inside;
+}
+abbr {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+footer strong {
+    color: white;
+}
+footer {
+    background-color: var(--color01);
+    text-align: center;
+    padding: 0px;
+    font-size: 0.8em;
+    
+}

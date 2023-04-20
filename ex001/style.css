@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype'), url('pacote-projeto-d010/fontes/idroid.otf') format('truetype');
+    }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Permanent+Marker&display=swap');
+    
+:root{
+    --color01: #155E38;
+    --color02: #315E47;
+    --color03: #26AB66;
+    --color04: #31DE84;
+    --color05: #76E3AB;
+}
+    
+
+body{
+    background-color: var(--color05);
+
+}
+header{
+    background-image: linear-gradient(var(--color01), var(--color03)) ;
+    color: white;
+    margin: 0px;
+    
+}
+nav{
+    color: white;
+    margin: 5px;
+}
+nav > a{
+    color: white;
+}
+
+header > h1{
+    font-family: 'idroid';
+    font-size: 2em;
+    color: green;
+    text-align: center;
+
+}
+h2{
+    font-family: 'idroid';
+    color: green;
+    background-image: linear-gradient(to right, --color03, transparent);
+}
+div{
+    background-color: whitesmoke;
+    border-end-end-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+}
+main > strong{
+    color: green;
+}
+a{
+    color: green;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+
+}
+h3{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+aside{
+    background-color: rgb(124, 226, 192);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+
+}
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+div > footer  {
+    color: white;
+    font-weight: bold;
+}
+footer > strong {
+    color: white;
+    font-weight: bold;
+}
+
