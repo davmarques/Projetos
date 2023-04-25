@@ -91,8 +91,8 @@ main {
     
     margin: auto;
     padding: 15px;
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 400px;
+    max-width: 800px;
     box-shadow: 2px 2px 2px black;
     text-align: justify;
     line-height: 1.2em;
