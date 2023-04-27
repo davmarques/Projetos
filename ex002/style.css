@@ -18,7 +18,7 @@
 }
 body {
     background-color: var(--color05);
-    min-width: 300px;
+    width: 97vw;
 }
 p {
     max-width: 15px 0px;
