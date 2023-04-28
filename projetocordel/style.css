@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Passion+One:wght@400;700;900&family=Permanent+Marker&display=swap');
  
@@ -60,31 +61,8 @@ section {
     line-height: 3.6em;
     font-size: 1.1em;
 }
-article {
-    padding: 20px;
-    font-size: 1.5em;
-}
 
-article#q2 {
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.336);
-    color: aliceblue;
-}
-
-article#q3 {
-    margin: 0px;
-    padding: 5px;
-
-}
-
-article#q4 {
-    margin: auto;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.336);
-    color: aliceblue;
-}
-
-section#q1 {
+section.normal {
     padding: 20px;
     text-indent: 20px;
     font-family: var(--font02);
@@ -92,7 +70,7 @@ section#q1 {
     font-size: 1.1em;
 }
 
-section#q2 {
+section.imagem {
     background-color: aliceblue;
     background-image: url('pacote-d012/imagens/background001.jpg');
     height: 97vh;
@@ -101,31 +79,14 @@ section#q2 {
     
 }
 
-section#q2 > p {
+section.imagem > p {
     
     color: aliceblue;
     text-align: left;
     
 }
 
-section#q3 {
-    padding: 20px;
-    text-indent: 20px;
-    font-family: var(--font02);
-    line-height: 2em;
-    font-size: 1.1em;
-    height: 1280px;
-}
-
-section#q4 {
-    background-color: aliceblue;
-    background-image: url('pacote-d012/imagens/background002.jpg');
-    height: 97vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-section#q4 > p {
+section.imagem > p {
     background-color: rgba(0, 0, 0, 0.336);
     color: aliceblue;
 }
