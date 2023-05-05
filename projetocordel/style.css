@@ -48,6 +48,13 @@ h2 > a {
     color: aliceblue;
     font-size: 1.2em;
 }
+
+a:hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
+
 main {
     max-width: 800px;
     margin: auto;
@@ -56,37 +63,57 @@ main {
 }
 section {
     padding: 20px;
-    text-indent: 20px;
     font-family: var(--font02);
-    line-height: 3.6em;
-    font-size: 1.1em;
 }
 
+section > p {
+    padding-bottom: 2em;
+    line-height: 3.5em;
+    font-size: 1.6em;
+}
 section.normal {
     padding: 20px;
-    text-indent: 20px;
     font-family: var(--font02);
-    line-height: 2em;
+    line-height: 1.1em;
     font-size: 1.1em;
 }
 
 section.imagem {
-    background-color: aliceblue;
-    background-image: url('pacote-d012/imagens/background001.jpg');
-    height: 97vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
+    padding: 20px;
+    font-family: var(--font02);
+    line-height: 1.1em;
+    font-size: 1.1em;
+    box-shadow: inset 1px 1px 5px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+section#img01 {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
     
+}
+
+section#img02 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: right center;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
     color: aliceblue;
     text-align: left;
-    
+    text-shadow: 1px 1px 0px black;
 }
-
-section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.336);
+footer {
+    background-color: black;
     color: aliceblue;
+    text-align: center;
+    font-family: var(--font01);
+    font-size: 1.1em;
 }
